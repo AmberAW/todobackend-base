@@ -1,3 +1,4 @@
 #!/bin/bash
-. /source activate appenv
+export PATH="$HOME/miniconda/bin:$PATH" 
+source activate appenv
 exec $@``
